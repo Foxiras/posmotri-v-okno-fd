@@ -72,6 +72,7 @@ ol {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
   cursor: pointer
 }
 
@@ -150,7 +151,7 @@ ol {
   text-align: center;
   color: white;
   background-color: #1B1919;
-  border: 1px solid white;
+  outline: 1px solid white;
   padding-top: 6px;
   padding-bottom: 6px;
   cursor: pointer;
@@ -192,7 +193,7 @@ ol {
   width: 18px;
   height: 18px;
   margin-right: 5px;
-  border: 1px solid white;
+  outline: 1px solid white;
 }
 
 .search-form__pseudo-checkbox:focus-visible {
