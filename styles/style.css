@@ -180,6 +180,7 @@ ol {
 
 .more-button {
   width: 100%;
+  margin-top: 30px;
 }
 
 .visually-hidden {
@@ -308,9 +309,9 @@ ol {
   display: block;
   font-weight: normal;
   line-height: 16.2px;
-  line-clamp: 4;
   display: -webkit-box;
-  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;  
   overflow: hidden;
   margin-top: 5px;
 }
@@ -322,5 +323,3 @@ ol {
   object-fit: cover;
   object-position: center;
 }
-
-
